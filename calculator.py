@@ -14,3 +14,8 @@ def subtract(a: float, b: float) -> float:
 def multiply(a: float, b: float) -> float:
     """Return the product of two numbers."""
     return a * b
+
+
+def divide(a: float, b: float) -> float:
+    """Return the quotient of two numbers."""
+    return a / b

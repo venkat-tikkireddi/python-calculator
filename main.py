@@ -1,6 +1,6 @@
 """Run examples using the calculator module."""
 
-from calculator import add, multiply, subtract
+from calculator import add, divide, multiply, subtract
 
 
 def main() -> None:
@@ -15,6 +15,10 @@ def main() -> None:
     print(
         f"{first_number} * {second_number} = "
         f"{multiply(first_number, second_number)}"
+    )
+    print(
+        f"{first_number} / {second_number} = "
+        f"{divide(first_number, second_number)}"
     )
 
 
